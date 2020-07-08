@@ -36,7 +36,7 @@ Owner has complete bot access, including bot adminship in chats AstrakoBot is at
 \n*Tigers* - Same as wolves but can unban themselves if banned.
 \n*Wolves* - Cannot be banned, muted flood kicked but can be manually banned by admins.
 \n*Disclaimer*: The disaster levels in AstrakoBot are there for troubleshooting, support, banning potential scammers.
-Report abuse or ask us more on these at [Heroes Association](https://t.me/OnePunchSupport).
+Report abuse or ask us more on these at [Heroes Association](https://t.me/AstrakoBotSupport).
 """
 # do not async, not a handler 
 def send_disasters(update):

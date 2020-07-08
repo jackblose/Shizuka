@@ -246,7 +246,7 @@ If you want your keyword to be a sentence, use quotes.
 Note: Filters now have regex so any existing filters you have are case insensitive by default.\
 To save case insensitive regex use\
 `/filter "(?i) my trigger word" my reply that ignores case`\
-In case you require more advanced regex help, please reach out to us at @OnePunchSupport. 
+In case you require more advanced regex help, please reach out to us at @AstrakoBotSupport. 
 """
 
 FILTER_HANDLER = CommandHandler("filter", filters)

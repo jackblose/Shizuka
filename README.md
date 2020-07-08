@@ -9,14 +9,14 @@ Originally a Marie fork, AstrakoBot evolved further and was built to be more rob
 
 Can be found on telegram as [AstrakoBot](https://t.me/AstrakoBot).
 
-The Support group can be reached out to at [One Punch Support](https://t.me/OnePunchSupport), where you can ask for help about @AstrakoBot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [One Punch Support](https://t.me/AstrakoBotSupport), where you can ask for help about @AstrakoBot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [One Punch Updates](https://t.me/OnePunchUpdates) 
 
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @OnePunchSupport to your own support chat. 
+ - Edit any mentions of @AstrakoBotSupport to your own support chat. 
  - We do not support forks, once you fork the bot and deploy the headache of bugs and support is your own, please do not come to our support chat asking technical help.
  - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/AnimeKaizoku/AstrakoBot/blob/shiken/AstrakoBot/__main__.py#L25)
  - If you come to our support chat on Telegram asking help about a "fork" or a technical issue with a module, you will end up getting ignored or banned. 
@@ -39,7 +39,7 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 <details>
   <summary>Steps to self Host!! </summary>
 
-Note: This instruction set is just a copy-paste from Marie, note that [One Punch Support](https://t.me/OnePunchSupport) aims to handle support for @AstrakoBot and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
+Note: This instruction set is just a copy-paste from Marie, note that [One Punch Support](https://t.me/AstrakoBotSupport) aims to handle support for @AstrakoBot and not how to set up your own fork. If you find this bit confusing/tough to understand then we recommend you ask a dev, kindly avoid asking how to set up the bot instance in the support chat, it aims to help our own instance of the bot and not the forks.
 
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
@@ -199,7 +199,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/OnePunchSupport)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/AstrakoBotSupport)
 ## How to setup on Heroku 
 For starters click on this button 
 </details>  
@@ -212,4 +212,4 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [One Punch Support](https://t.me/OnePunchSupport) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [One Punch Support](https://t.me/AstrakoBotSupport) or simply submit a pull request on the readme.
