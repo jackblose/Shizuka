@@ -64,7 +64,7 @@ def warn(user: User, chat: Chat, reason: str, message: Message, warner: User = N
         for warn_reason in reasons:
             reply += f"\n - {html.escape(warn_reason)}"
 
-        message.bot.send_sticker(chat.id, BAN_STICKER)  # Saitama's sticker
+        message.bot.send_sticker(chat.id, BAN_STICKER)  # AstrakoBot's sticker
         keyboard = []
         log_reason = (f"<b>{html.escape(chat.title)}:</b>\n"
                       f"#WARN_BAN\n"
