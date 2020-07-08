@@ -42,7 +42,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username",
-         "value": "AnimeKaizoku"
+         "value": "Astrako"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.)",
@@ -124,5 +124,5 @@
       "AstrakoBot"
    ],
    "name": "AstrakoBot ",
-   "repository": "https://github.com/AnimeKaizoku/AstrakoBot"
+   "repository": "https://github.com/Astrako/AstrakoBot"
 }

@@ -22,7 +22,7 @@ I am an Anime themed group management bot.
 To add me to your group click ["HERE"](t.me/AstrakoBot?startgroup=botstart)
 You can find my list of available commands with /help.
 
-[AstrakoBot's Repo](github.com/AnimeKaizoku/AstrakoBot) 
+[AstrakoBot's Repo](github.com/Astrako/AstrakoBot) 
 See [Basic Configuration Checklist](t.me/OnePunchUpdates/29) on how to secure your group.
 The support group chat is at {}.
 """
