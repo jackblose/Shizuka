@@ -10,7 +10,7 @@ from telegram import TelegramError
 from telegram import Update, Bot
 from telegram.ext import run_async
 from telegram.utils.helpers import escape_markdown
-
+from bot.modules.helper_funcs.chat_status import dev_plus
 from AstrakoBot import dispatcher
 from AstrakoBot.modules.disable import DisableAbleCommandHandler
 
@@ -39,7 +39,7 @@ def getsticker(bot: Bot, update: Update):
     else:
         update.effective_message.reply_text("Please reply to a sticker for me to upload its PNG.")
 
-
+@dev_plus
 @run_async
 def kang(bot: Bot, update: Update, args: List[str]):
     msg = update.effective_message
@@ -201,7 +201,7 @@ def makepack_internal(msg, user, png_sticker, emoji, bot):
 __help__ = """
 • `/stickerid`*:* reply to a sticker to me to tell you its file ID.
 • `/getsticker`*:* reply to a sticker to me to upload its raw PNG file.
-• `/kang`*:* reply to a sticker to add it to your pack.
+• `/kang`*:* NOT FOR REGULAR USER.
 """
 
 __mod_name__ = "Stickers"
