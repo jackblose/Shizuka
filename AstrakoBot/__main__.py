@@ -59,8 +59,8 @@ Dibuat khusus untuk membuat group anda tetap nyaman dan aman terkendali.
 Saya bukan manusia yang bisa puasin nafsumu, jangan salah gunakan!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [Master](https://t.me/Hyoneechan)
-▪**Blog Gabut:** [Blogku](http://pramukapitumpanua.blogspot.com/)
+▪**Managed with by:** [KOALA🐨](https://t.me/mixiologist)
+▪**JOIN MY GRUP:** [CTH](http://t.me/caritemanhidop)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -86,7 +86,7 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://i.ibb.co/kMCxWrJ/615117e837f27cf233eafe825b1f0a43.jpg"
+ASTRAKOBOT_IMG = "https://i.ibb.co/9gqtY04/IMG-20210129-004109-607.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
