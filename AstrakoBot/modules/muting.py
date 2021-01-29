@@ -78,7 +78,7 @@ def mute(update: Update, context: CallbackContext) -> str:
         bot.restrict_chat_member(chat.id, user_id, chat_permissions)
         bot.sendMessage(
             chat.id,
-            f"Muted <b>{html.escape(member.user.first_name)}</b> with no expiration date!",
+            f"Muted <b>{html.escape(member.user.first_name)}</b> karena muka nya kayak kontoll 🐨!",
             parse_mode=ParseMode.HTML)
         return log
 
@@ -130,7 +130,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
                 pass
             bot.sendMessage(
                 chat.id,
-                f"gua izinin si <b>{html.escape(member.user.first_name)}</b> lain kali gausa sok keras kontoll!",
+                f"gua unmute si <b>{html.escape(member.user.first_name)}</b> lain kali gausa sok keras kontoll!",
                 parse_mode=ParseMode.HTML)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
@@ -201,7 +201,7 @@ def temp_mute(update: Update, context: CallbackContext) -> str:
                 chat.id, user_id, chat_permissions, until_date=mutetime)
             bot.sendMessage(
                 chat.id,
-                f"Muted <b>{html.escape(member.user.first_name)}</b> for {time_val}!",
+                f"Muted si kontol <b>{html.escape(member.user.first_name)}</b> karena jelek selama {time_val}!",
                 parse_mode=ParseMode.HTML)
             return log
         else:
