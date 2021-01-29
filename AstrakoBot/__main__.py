@@ -53,14 +53,14 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 
 Hi {}, nama saya {}!
-Saya adalah seorang manusia Robot super. 
-Ada untuk membantai para parasit telegram.
-Dibuat khusus untuk membuat group anda tetap nyaman dan aman terkendali.
-Saya bukan manusia yang bisa puasin nafsumu, jangan salah gunakan!!
+Saya adalah robot yang bisa memecahkan biji peler mu. 
+Saya ada untuk membantai para parasit telegram.
+Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
+Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
 ━─━─━─━─━─━─━─━─━─━─━
 
 ▪**Managed with by:** [KOALA🐨](https://t.me/mixiologist)
-▪**JOIN MY GRUP:** [CTH](http://t.me/caritemanhidop)
+▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caritemanhidupofficial)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -215,17 +215,17 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥 Super Group",
-                             url=f"https://t.me/GroupCariTemanChat"),
+                             text="👥 CTH Grup",
+                             url=f"https://t.me/caritemanhidop"),
                      
                          InlineKeyboardButton(
-                             text="➰ Group Random",
-                             url="https://t.me/RPIrandompeopleindonesia")
+                             text="🍭 Help & Command",
+                             url=f"t.me/{dispatcher.bot.username}?start=help")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🔔 Channel Hiburan",
-                             url="https://t.me/MemesRpi")
+                             text="🚫 Gban Logs",
+                             url="https://t.me/joinchat/SKYP-Hv8tqZ-UvYq")
                      ]]))
     else:
         update.effective_message.reply_text(
