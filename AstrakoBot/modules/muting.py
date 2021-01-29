@@ -83,7 +83,7 @@ def mute(update: Update, context: CallbackContext) -> str:
         return log
 
     else:
-        message.reply_text("This user is already muted!")
+        message.reply_text("Diam lu goblok 🔥!")
 
     return ""
 
@@ -130,7 +130,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
                 pass
             bot.sendMessage(
                 chat.id,
-                f"I shall allow <b>{html.escape(member.user.first_name)}</b> to text!",
+                f"gua izinin si <b>{html.escape(member.user.first_name)}</b> lain kali gausa sok keras kontoll!",
                 parse_mode=ParseMode.HTML)
             return (
                 f"<b>{html.escape(chat.title)}:</b>\n"
