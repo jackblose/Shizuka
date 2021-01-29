@@ -217,7 +217,7 @@ def gban(update: Update, context: CallbackContext):
         send_to_list(
             bot,
             DRAGONS + DEMONS,
-            f"Gban complete! (User banned in <code>{gbanned_chats}</code> chats)",
+            f"Global Banned Berhasil Kampang (User banned in <code>{gbanned_chats}</code> chats)",
             html=True)
 
     end_time = time.time()
@@ -225,9 +225,9 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("Jamet berhasil di Gbanned!.", parse_mode=ParseMode.HTML)
     else:
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("Jamet berhasil di Gbanned!.", parse_mode=ParseMode.HTML)
 
     try:
         bot.send_message(
@@ -267,7 +267,7 @@ def ungban(update: Update, context: CallbackContext):
         return
 
     message.reply_text(
-        f"I'll give {user_chat.first_name} a second chance, globally.")
+        f"Baginda Koala memberikan {user_chat.first_name} kesempatan tapi pap tt dulu")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
@@ -337,7 +337,7 @@ def ungban(update: Update, context: CallbackContext):
             log_message + f"\n<b>Chats affected:</b> {ungbanned_chats}",
             parse_mode=ParseMode.HTML)
     else:
-        send_to_list(bot, DRAGONS + DEMONS, "un-gban complete!")
+        send_to_list(bot, DRAGONS + DEMONS, "un-gban complete jangan sok keras lagi tolol!")
 
     end_time = time.time()
     ungban_time = round((end_time - start_time), 2)
@@ -345,10 +345,10 @@ def ungban(update: Update, context: CallbackContext):
     if ungban_time > 60:
         ungban_time = round((ungban_time / 60), 2)
         message.reply_text(
-            f"Person has been un-gbanned. Took {ungban_time} min")
+            f"gausah sok keras lagi ya tolol. durasi gban {ungban_time} min")
     else:
         message.reply_text(
-            f"Person has been un-gbanned. Took {ungban_time} sec")
+            f"gausah sok keras lagi ya tolol. durasi gban {ungban_time} sec")
 
 
 @run_async
