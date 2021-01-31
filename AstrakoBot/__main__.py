@@ -59,8 +59,8 @@ Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
 Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [KOALA🐨](https://t.me/Detzcaius)
-▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caripasangangrup)
+▪**Managed with by:** [PANDA](https://t.me/Detzcaius)
+▪**JOIN MY CH OFFICIAL:** [CP](http://t.me/caripasangangrup)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
