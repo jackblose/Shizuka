@@ -59,8 +59,8 @@ Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
 Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [PANDA](https://t.me/Detzcaius)
-▪**JOIN MY CH OFFICIAL:** [CP](http://t.me/caripasangangrup)
+▪**Managed with by:** [KOALA🐨](https://t.me/mixiologist)
+▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caritemanhidupofficial)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -86,7 +86,7 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://telegra.ph/file/571128084a7c94b0996e1.jpg"
+ASTRAKOBOT_IMG = "https://i.ibb.co/9gqtY04/IMG-20210129-004109-607.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
