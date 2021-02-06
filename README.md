@@ -1,22 +1,35 @@
-![DETZ](https://telegra.ph/file/0d54766fb710948e24c6c.jpg)
-# KATSUZETSU 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/AstrakoBot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/AstrakoBot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Astrako/AstrakoBot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/OnePunchUpdates)
+<h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">KOALA ░ 🐨</a></b></h2>
+<br>
+<p align="center">
+   <a href="https://github.com/Camel07/Koala"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="KOALA BOT" width=400px></a>
+   <br>
+   <br>
+</p>
+<h1>KOALA BOT</h1>
+<b>BOT NYA TOXIC HATI - HATI!</b>
+<br>
+<br>
+
 
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a SaitamaRobot fork, AstrakoBot evolved further and was built to be more robust. 
+Originally a SaitamaRobot fork, KOALA 🐨 evolved further and was built to be more robust. 
 
-Can be found on telegram as [AstrakoBot](https://t.me/AstrakoBot).
+Can be found on telegram as [KOALA 🐨](https://t.me/mixiologist).
 
-The Support group can be reached out to at [AstrakoBotSupport](https://t.me/AstrakoBotSupport), where you can ask for help about [AstrakoBot](https://t.me/AstrakoBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [CTH](https://t.me/caritemanhidop), where you can ask for help about [KOALA 🐨](https://t.me/mixiologist), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [One Punch Updates](https://t.me/OnePunchUpdates) 
+News channel as at [SUPPORT CHANNEL](https://t.me/caritemanhidopofficial) 
+
+<p align="center">
+    <a href="https://telegram.dog/caritemanhidop"><img src="https://telegra.ph/file/b28a3909df2e46bab6458.jpg" width=220px></a></p>
+
 
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @AstrakoBotSupport to your own support chat
+ - Edit any mentions of @mixiologist to your own support chat
  - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot [See this](https://github.com/AnimeKaizoku/SaitamaRobot/blob/shiken/SaitamaRobot/__main__.py#L25)
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors
@@ -31,11 +44,14 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Camel07/Koala.git)
-
+  <p align="center">
+   <a href = "https://heroku.com/deploy?template=https://github.com/Camel07/Koala"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+</p>
+<br>
 </details>  
 <details>
-  <summary>Steps to self Host!! </summary>
+  
+<summary>Steps to self Host!! </summary>
 
   ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older Python versions!
@@ -171,8 +187,12 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Camel07/Koala.git) 
-
+  <p align="center">
+   <a href = "https://heroku.com/deploy?template=https://github.com/Camel07/Koala"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+</p>
+<br>
+</details>  
+<details>
 
 ## Credits
 The bot is based on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
