@@ -43,3 +43,6 @@ validators
 youtube_dl
 youtube-search-python
 gtts
+tgCrypto>=1.2.2
+pyrogram>=1.0.7
+psycopg2
