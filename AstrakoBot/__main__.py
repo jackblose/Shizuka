@@ -88,10 +88,10 @@ Dan berikut ini:
 
 ASTRAKOBOT_IMG = "https://i.ibb.co/9gqtY04/IMG-20210129-004109-607.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Silahkan Donasi Ke sini 
+biar gw bisa update sistem bot nya lagi ya asu.. 
+kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
+user gratisan gausah sok keras; [KOALA 🐨](https://t.me/manusiarakitann), or [SUBS MY CH](https://t.me/caritemanhidupofficial)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
