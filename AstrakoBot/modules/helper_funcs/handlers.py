@@ -116,7 +116,7 @@ class CustomCommandHandler(CommandHandler):
             if isinstance(check_result[1], dict):
                 context.update(check_result[1])
 
-
+MessageHandler(Filters.regex('pattern'), callback).
 class CustomRegexHandler(RegexHandler):
 
     def __init__(self, pattern, callback, friendly="", **kwargs):
