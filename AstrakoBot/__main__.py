@@ -59,7 +59,7 @@ Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
 Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [KOALA🐨](https://t.me/mixiologist)
+▪**Managed with by:** [KOALA🐨](https://t.me/manusiarakitann)
 ▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caritemanhidupofficial)
 
 ━─━─━─━─━─━─━─━─━─━─━
@@ -503,7 +503,7 @@ def donate(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1073848376 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
@@ -521,7 +521,7 @@ def donate(update: Update, context: CallbackContext):
                 "I've PM'ed you about donating to my creator!")
         except Unauthorized:
             update.effective_message.reply_text(
-                "Contact me in PM first to get donation information.")
+                "Boleh jika ingin berdonasi , agar saya dapat mengupdate sistem bot lebih bagus lagi.")
 
 
 def migrate_chats(update: Update, context: CallbackContext):
