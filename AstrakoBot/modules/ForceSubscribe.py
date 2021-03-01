@@ -17,14 +17,14 @@
 import logging
 import time
 
-from telegram import filters
-from telegram.errors.exceptions.bad_request_400 import (
+from pyrogram import filters
+from pyrogram.errors.exceptions.bad_request_400 import (
     ChatAdminRequired,
     PeerIdInvalid,
     UsernameNotOccupied,
     UserNotParticipant,
 )
-from telegram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
 from AstrakoBot import DRAGONS as SUDO_USERS
 from AstrakoBot import pbot
