@@ -26,9 +26,9 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from pyrogram.types import ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 
-from DaisyX import DRAGONS as SUDO_USERS
-from DaisyX import pbot
-from DaisyX.modules.sql import forceSubscribe_sql as sql
+from AstrakoBot import DRAGONS as SUDO_USERS
+from AstrakoBot import pbot
+from AstrakoBot.modules.sql import forceSubscribe_sql as sql
 
 logging.basicConfig(level=logging.INFO)
 
@@ -191,23 +191,23 @@ __help__ = """
 *ForceSubscribe:*
 
 *Channel Manageer Inbuilt*
-✪ Manajer Saluran Bawaan
+🐨 Manajer Saluran Bawaan
 Saya dapat berhenti mengirim pesan kepada anggota grup Anda sampai mereka berlangganan ke satu saluran atau lebih.
-✪ Jika pelanggan tidak terhubung ke saluran Anda, saya dapat membisukan mereka dan meminta mereka untuk bergabung dengan saluran dan saya dapat membisukan mereka dengan menekan sebuah tombol..
+🐨 Jika pelanggan tidak terhubung ke saluran Anda, saya dapat membisukan mereka dan meminta mereka untuk bergabung dengan saluran dan saya dapat membisukan mereka dengan menekan sebuah tombol..
 
 *Setup*
 1) First of all add me in the group as admin with ban users permission and in the channel as admin.
 Note: Only creator of the group can setup me and i will not allow force subscribe again if not done so.
  
 *Commmands*
-✪ /ForceSubscribe - To get the current settings.
-✪ /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
-✪ /ForceSubscribe {channel username} - To turn on and setup the channel.
-✪ /ForceSubscribe clear - To unmute all members who muted by me.
+🐨 /ForceSubscribe - To get the current settings.
+🐨 /ForceSubscribe no/off/disable - To turn of ForceSubscribe.
+🐨 /ForceSubscribe {channel username} - To turn on and setup the channel.
+🐨 /ForceSubscribe clear - To unmute all members who muted by me.
 
 Note: /FSub is an alias of /ForceSubscribe
 
-💭 Only on Sinhala 🇱🇰 yet
+💭 Add by:Koala 🐨
  
 """
-__mod_name__ = "📢 Force Subscribe 💭"
+__mod_name__ = "📢 Force Subscribe 🐨"
