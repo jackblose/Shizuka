@@ -91,7 +91,7 @@ ASTRAKOBOT_IMG = "https://i.ibb.co/9gqtY04/IMG-20210129-004109-607.jpg"
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
 kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [KOALA 🐨](https://t.me/manusiarakitann), or [SUBS MY CH](https://t.me/caritemanhidupofficial)."""
+user gratisan gausah sok keras; [RAMA](https://t.me/Ramadhaniiiiiii1), or [SUBS MY CH](https://t.me/TEMAN_RANDOM)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -215,8 +215,8 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥 CTH Grup",
-                             url=f"https://t.me/caritemanhidop"),
+                             text="👥 TR Grup",
+                             url=f"https://t.me/teman_random"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command",
