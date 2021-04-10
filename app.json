@@ -1,7 +1,7 @@
 {
-      "name": "KOALA-BOT",
-      "description": "A modular Telegram group management bot.",
-      "logo": "https://telegra.ph/file/661db62b099144e5991c5.jpg",
+      "name": "RAMA-UBOT",
+      "description": "BOT YANG DIGUNAKAN UNTUK MEMANAGE GROUP ANDA.",
+      "logo": "https://telegra.ph/file/62adc50a87f4019476177.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "AstrakoBot"
       ],   
-   "repository": "https://github.com/ManusiaRakitan/Koala",
+   "repository": "https://github.com/ramadhani892/Rama1",
    "addons": [
       {
          "options": {
