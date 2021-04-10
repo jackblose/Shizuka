@@ -53,14 +53,14 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 
 Hi {}, nama saya {}!
-Saya adalah robot yang bisa memecahkan biji peler mu. 
-Saya ada untuk membantai para parasit telegram.
-Dibuat khusus untuk memberantas jamet tele kampang yang meresahkan.
+Saya adalah robot yang bisa membantumu memanage grup kamu. 
+Saya ada untuk membasmi para penjahat kelamin.
+Dibuat khusus untuk memberantas jamet tele Sangean yang meresahkan.
 Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [KOALA🐨](https://t.me/manusiarakitann)
-▪**JOIN MY CH OFFICIAL:** [CTH](http://t.me/caritemanhidupofficial)
+▪**Managed with by:** [RAMADHANI](https://t.me/Ramadhaniiiiiii1)
+▪**JOIN MY CH OFFICIAL:** [TR](http://t.me/Teman_Random)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
