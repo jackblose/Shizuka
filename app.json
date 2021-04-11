@@ -1,7 +1,7 @@
 {
       "name": "RAMA-UBOT",
       "description": "BOT YANG DIGUNAKAN UNTUK MEMANAGE GROUP ANDA.",
-      "logo": "https://telegra.ph/file/62adc50a87f4019476177.jpg",
+      "logo": "https://telegra.ph/file/a68552daaa5cd07a23c9a.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "AstrakoBot"
       ],   
-   "repository": "https://github.com/ramadhani892/Rama1",
+   "repository": "https://github.com/ramadhani892/Rama",
    "addons": [
       {
          "options": {
