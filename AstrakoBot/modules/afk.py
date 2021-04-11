@@ -57,7 +57,7 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                '{} Abis VCS ya mas?', '{} Kembali lagi!', '{} VCS mulu TOLOL!',
+                '{} Akhirnya kembali?', '{} darimana?', '{} Habis bucin kah?',
                 '{} KIWW MNIEEZZ', '{} BOLAK BALIK MULU KNTL!', '{} si anjing sok sibuk!',
                 'Welcome back anak dajal! {}', 'kemana si {}?\nPasti abis parming pap tt!'
             ]
