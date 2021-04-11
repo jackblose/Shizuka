@@ -86,7 +86,7 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://i.ibb.co/MyHhdqR/Pics-Art-04-07-06-23-28.jpg"
+ASTRAKOBOT_IMG = "https://i.ibb.co/5cfkWps/Pics-Art-12-27-05-26-40.jpg"
 
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
