@@ -27,7 +27,7 @@ GIFS = [
 ]
 
 SLAP_SAITAMA_TEMPLATES = (
-    "GAUSAH TAMPAR" GUA. GUA MUTE NIH",
+    "GAUSAH TAMPAR-TAMPAR GUA. GUA MUTE NIH",
     "STOP NAMPAR GUA. OOOOOASUUUUUU.",
     [
         "I am muting you for a minute.",  # normal reply
