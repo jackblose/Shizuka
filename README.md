@@ -27,8 +27,7 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 ```
 
   <p align="center">
-   <a href = 
-<h1>https://heroku.com/deploy?template=https://github.com/ramadhani892/Rama.git</hq>
+   <a href = "https://heroku.com/deploy?template=https://github.com/ramadhani892/Rama1"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 </details>  
