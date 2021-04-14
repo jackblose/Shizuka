@@ -18,9 +18,9 @@ Originally a SaitamaRobot fork, KOALA 🐨 evolved further and was built to be m
 
 Can be found on telegram as [KOALA 🐨](https://t.me/mixiologist).
 
-The Support group can be reached out to at [CTH](https://t.me/caritemanhidop), where you can ask for help about [KOALA 🐨](https://t.me/mixiologist), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [TR GROUP](https://t.me/teman_random), where you can ask for help about [KOALA 🐨](https://t.me/mixiologist), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
-News channel as at [SUPPORT CHANNEL](https://t.me/caritemanhidopofficial) 
+News channel as at [SUPPORT CHANNEL](https://t.me/candu_musikk) 
 
 <p align="center">
     <a href="https://telegram.dog/caritemanhidop"><img src="https://telegra.ph/file/b28a3909df2e46bab6458.jpg" width=220px></a></p>
