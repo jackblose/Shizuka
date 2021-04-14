@@ -6,25 +6,7 @@
    <br>
 </p>
 <h1>RAMA BOT</h1>
-<b>BOT BAIK HATI!</b>
-<br>
-<br>
-
-
-
-A modular Telegram Python bot running on python3 with a sqlalchemy database.
-
-Originally a SaitamaRobot fork, RAMA evolved further and was built to be more robust. 
-
-Can be found on telegram as [RAMA](https://t.me/candu_musikk).
-
-The Support group can be reached out to at [TR GROUP](https://t.me/teman_random), where you can ask for help about [KOALA 🐨](https://t.me/mixiologist), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
-
-News channel as at [SUPPORT CHANNEL](https://t.me/candu_musikk) 
-
-<p align="center">
-    <a href="https://telegram.dog/caritemanhidop"><img src="https://telegra.ph/file/b28a3909df2e46bab6458.jpg" width=220px></a></p>
-
+<
 
 ## How to setup/deploy.
 
