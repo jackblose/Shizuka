@@ -28,7 +28,7 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 
   <p align="center">
    <a href = 
-<h1>[TEKAN](https://heroku.com/deploy?template=https://github.com/ramadhani892/Rama)</hq>
+<h1>(https://heroku.com/deploy?template=https://github.com/ramadhani892/Rama)</hq>
 </p>
 <br>
 </details>  
