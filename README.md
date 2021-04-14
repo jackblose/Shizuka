@@ -1,12 +1,12 @@
-<h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">KOALA ░ 🐨</a></b></h2>
+<h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">RAMA</a></b></h2>
 <br>
 <p align="center">
    <a href="https://github.com/ramadhani892/Rama">
    <br>
    <br>
 </p>
-<h1>KOALA BOT</h1>
-<b>BOT NYA TOXIC HATI - HATI!</b>
+<h1>RAMA BOT</h1>
+<b>BOT BAIK HATI!</b>
 <br>
 <br>
 
@@ -14,9 +14,9 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a SaitamaRobot fork, KOALA 🐨 evolved further and was built to be more robust. 
+Originally a SaitamaRobot fork, RAMA evolved further and was built to be more robust. 
 
-Can be found on telegram as [KOALA 🐨](https://t.me/mixiologist).
+Can be found on telegram as [RAMA](https://t.me/candu_musikk).
 
 The Support group can be reached out to at [TR GROUP](https://t.me/teman_random), where you can ask for help about [KOALA 🐨](https://t.me/mixiologist), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
