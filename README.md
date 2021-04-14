@@ -1,7 +1,7 @@
 <h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">KOALA ░ 🐨</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/ramadhani892/Rama"><" alt="KOALA BOT" width=400px></a>
+   <a href="https://github.com/ramadhani892/Rama">
    <br>
    <br>
 </p>
