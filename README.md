@@ -1,7 +1,7 @@
 <h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">KOALA ░ 🐨</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/ManusiaRakitan/Koala"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="KOALA BOT" width=400px></a>
+   <a href="https://github.com/ramadhani892/Rama"><img src="https://media0.giphy.com/media/Hs0cX9Z3RR77c0MMA7/giphy.gif" alt="KOALA BOT" width=400px></a>
    <br>
    <br>
 </p>
@@ -188,7 +188,7 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 For starters click on this button 
 
   <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/ManusiaRakitan/Koala"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/ramadhani892/Rama"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 </details>  
