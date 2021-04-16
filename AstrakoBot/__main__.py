@@ -215,22 +215,27 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥TR Grup👥",
+                             text="👥 TR Grup 👥",
                              url=f"https://t.me/teman_random"),
                      
                          InlineKeyboardButton(
-                             text="🍭Help & Command🍭",
+                             text="🍭 Help & Command 🍭",
                              url=f"t.me/{dispatcher.bot.username}?start=help")
                      ],
                      [
                          InlineKeyboardButton(
-                             text="㊙️CHANNEL㊙️",
-                             url="https://t.me/candu_musikk")
+                             text="⚔️ PEMILIK ⚔️",
+                             url="https://t.me/Ramadhaniiiiiii1")
                      ],
-                     [
+                      [
                          InlineKeyboardButton(
-                             text="⚡INSTAGRAM⚡",
+                             text="⚡ INSTAGRAM ⚡",
                              url="https://www.instagram.com/ramadh20?r=nametag")
+                     ],
+                     [  
+                         InlineKeyboardButton(
+                             text="✨ CHANNEL ✨",
+                             url="https://t.me/candu_musikk")
                      ]]))
     else:
         update.effective_message.reply_text(
