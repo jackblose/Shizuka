@@ -227,11 +227,6 @@ def start(update: Update, context: CallbackContext):
                              text="⚔️ PEMILIK ⚔️",
                              url="https://t.me/Ramadhaniiiiiii1")
                      ],
-                      [
-                         InlineKeyboardButton(
-                             text="⚡ INSTAGRAM ⚡",
-                             url="https://www.instagram.com/ramadh20?r=nametag")
-                     ],
                      [  
                          InlineKeyboardButton(
                              text="✨ CHANNEL ✨",
