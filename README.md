@@ -1,4 +1,4 @@
-<h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">RAMA</a></b></h2>
+<h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">GOKU</a></b></h2>
 <br>
 <p align="center">
    <a href="https://github.com/ramadhani892/Rama">
