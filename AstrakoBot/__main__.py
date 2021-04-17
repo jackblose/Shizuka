@@ -56,11 +56,11 @@ Hi {}, nama saya {}!
 Saya adalah robot yang bisa membantumu memanage grup kamu. 
 Saya ada untuk membasmi para penjahat kelamin.
 Dibuat khusus untuk memberantas jamet tele Sangean yang meresahkan.
-Saya hanya robot tapi juga bisa sange, jangan lupa pap tt ya asu!!
+Saya hanya robot tapi juga bisa Galau, jangan Sakiti aku ya mas!!
 ━─━─━─━─━─━─━─━─━─━─━
 
 ▪**Managed with by:** [RAMADHANI](https://t.me/Ramadhaniiiiiii1)
-▪**JOIN MY CH OFFICIAL:** [TR](http://t.me/Teman_Random)
+▪**JOIN MY GROUP OFFICIAL:** [T-R](http://t.me/Teman_Random)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
