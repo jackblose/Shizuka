@@ -36,7 +36,7 @@ def afk(update: Update, context: CallbackContext):
     sql.set_afk(update.effective_user.id, reason)
     fname = update.effective_user.first_name
     try:
-        update.effective_message.reply_text("{} Sedang AFK!{}".format(
+        update.effective_message.reply_text("{} Sekarang AFK!{}".format(
             fname, notice))
     except BadRequest:
         pass
@@ -124,7 +124,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         if not user.reason:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} Sekarang AFK!".format(fst_name)
+            res = "{} Lagi AFK!".format(fst_name)
             update.effective_message.reply_text(res)
         else:
             if int(userc_id) == int(user_id):
