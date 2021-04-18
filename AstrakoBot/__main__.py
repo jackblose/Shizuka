@@ -52,15 +52,15 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-Hi {}, nama saya {}!
+Hi {}, Perkenalkan,nama saya {}!
 Saya adalah robot yang bisa membantumu memanage grup kamu. 
-Saya ada untuk membasmi para penjahat kelamin.
-Dibuat khusus untuk memberantas jamet tele Sangean yang meresahkan.
-Saya hanya robot tapi juga bisa Galau, jangan Sakiti aku ya mas!!
+Cepat Undang aku ke ke grup mu, Supaya aku bisa memberantas para penjahat.
+Aku di buat khusus Untuk membantu kalian,mengusir para jamet telegram yang meresahkan!😋.
+Aku hanya robot tapi Aku juga bisa Galau, jangan Sakiti aku ya mas!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**Managed with by:** [RAMADHANI](https://t.me/Ramadhaniiiiiii1)
-▪**JOIN MY GROUP OFFICIAL:** [T-R](http://t.me/Teman_Random)
+▪**AKU DI BUAT OLEH   :** [RAMADHANI](https://t.me/Ramadhaniiiiiii1)
+▪**USERNAME KU ADALAH :** [GOKU BOT](http://t.me/goku_isbot)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -91,7 +91,7 @@ ASTRAKOBOT_IMG = "https://i.ibb.co/mSC0msg/IMG-20210418-023743-504.jpg"
 DONATE_STRING = """Silahkan Donasi Ke sini 
 biar gw bisa update sistem bot nya lagi ya asu.. 
 kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [RAMA](https://t.me/Ramadhaniiiiiii1), or [SUBS MY CH](https://t.me/TEMAN_RANDOM)."""
+user gratisan gausah sok keras; [RAMA](https://t.me/Ramadhaniiiiiii1), or [SUBS MY CH](https://t.me/Candu_musikk)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
