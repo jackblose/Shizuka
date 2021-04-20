@@ -59,7 +59,6 @@ Aku di buat khusus Untuk membantu kalian,mengusir para jamet telegram yang meres
 Aku hanya robot tapi Aku juga bisa Galau, jangan Sakiti aku ya mas!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**AKU DI BUAT OLEH   :** [RAMADHANI](https://t.me/Ramadhaniiiiiii1)
 ▪**USERNAME KU ADALAH :** [GOKU BOT](http://t.me/goku_isbot)
 
 ━─━─━─━─━─━─━─━─━─━─━
@@ -221,11 +220,6 @@ def start(update: Update, context: CallbackContext):
                          InlineKeyboardButton(
                              text="🍭 Help & Command 🍭",
                              url=f"t.me/{dispatcher.bot.username}?start=help")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="⚔️ PEMILIK ⚔️",
-                             url="https://t.me/Ramadhaniiiiiii1")
                      ],
                      [  
                          InlineKeyboardButton(
