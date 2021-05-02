@@ -1,7 +1,7 @@
 <h2 align="center"><b>MENAGE: <a href="https://telegram.dog/mixiologist">GOKU</a></b></h2>
 <br>
 <p align="center">
-   <a href="https://github.com/ramadhani892/Rama">
+   <a href="https://github.com/ramadhani892/Goku">
    <br>
    <br>
 </p>
@@ -27,7 +27,7 @@ Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.co
 ```
 
   <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/ramadhani892/Rama"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/ramadhani892/Goku"><img src="https://telegra.ph/file/34fa325c222a70badb02f.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 </details>  
