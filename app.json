@@ -1,5 +1,5 @@
 {
-      "name": "RAMA-UBOT",
+      "name": "GOKU BOT",
       "description": "BOT YANG DIGUNAKAN UNTUK MEMANAGE GROUP ANDA.",
       "logo": "https://telegra.ph/file/a68552daaa5cd07a23c9a.jpg",
       "keywords": [
@@ -9,7 +9,7 @@
          "manager",
          "AstrakoBot"
       ],   
-   "repository": "https://github.com/ramadhani892/Rama",
+   "repository": "https://github.com/ramadhani892/Goku",
    "addons": [
       {
          "options": {
