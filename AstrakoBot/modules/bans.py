@@ -137,11 +137,11 @@ def temp_ban(update: Update, context: CallbackContext) -> str:
             raise
 
     if user_id == bot.id:
-        message.reply_text("I'm not gonna BAN myself, are you crazy?")
+        message.reply_text("Saya ga bisa ban diri sendiri, Kamu gila ya?")
         return log_message
 
     if is_user_ban_protected(chat, user_id, member):
-        message.reply_text("I don't feel like it.")
+        message.reply_text("Saya sangat tidak suka dia")
         return log_message
 
     if not reason:
@@ -228,7 +228,7 @@ def punch(update: Update, context: CallbackContext) -> str:
         return log_message
 
     if is_user_ban_protected(chat, user_id):
-        message.reply_text("I really wish I could punch this user....")
+        message.reply_text("Saya benar benar memukul dia sampai keluar grup...")
         return log_message
 
     res = chat.unban_member(user_id)  # unban on current user = kick
@@ -250,7 +250,7 @@ def punch(update: Update, context: CallbackContext) -> str:
         return log
 
     else:
-        message.reply_text("Well damn, I can't punch that user.")
+        message.reply_text("Waw sangat keren, Saya menendang dia dari grup ini...")
 
     return log_message
 
@@ -268,7 +268,7 @@ def punchme(update: Update, context: CallbackContext):
     res = update.effective_chat.unban_member(
         user_id)  # unban on current user = kick
     if res:
-        update.effective_message.reply_text("*punches you out of the group*")
+        update.effective_message.reply_text("*Memukul dengan kekuatan super saiya samlai keluar..*")
     else:
         update.effective_message.reply_text("Huh? I can't :/")
 
