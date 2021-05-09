@@ -102,11 +102,6 @@ PAT_TEMPLATES = (
     "{user1} pats {user2} friendlily",
     "{user2} uses HEADPATS? O KAWAII KOTO",
     "*headpats.gif intensifies for {user2}*",
-    "(*´ω´(*｀ω｀)",
-    "(ｏ・_・)ノ”(ᴗ_ ᴗ。)",
-    "(*￣▽￣)ノ”(- -*)",
-    "(っ´ω`)ﾉ(╥ω╥)",
-    "( ´Д｀)ﾉ(´･ω･`) ﾅﾃﾞﾅﾃﾞ",
 )
 
 PAT_GIFS = (
