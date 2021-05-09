@@ -65,7 +65,7 @@ SLAP_TEMPLATES = (
     "{user2} di colmekin sama {user1} sampe squirting.",
     "{user1} memeluk mu dengan erat karna sangat sange kepada {user2}.",
     "{user2} menginginkan tubuh nya untuk di entot oleh {user1}.",
-    "{user1} memeras kemaluan {user1} sampai ke enakan.",
+    "{user1} memeras kemaluan {user2} sampai ke enakan.",
     "{user2} Bapak lo lumpuh kata {user1}.",
     "{user1} NGENTOT YU!!!.",
     "{user2} mengakui bahwa dirinya hina hahaha.",
