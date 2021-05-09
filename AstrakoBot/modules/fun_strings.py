@@ -30,38 +30,45 @@ SLAP_SAITAMA_TEMPLATES = (
     "GAUSAH TAMPAR-TAMPAR GUA. GUA MUTE NIH",
     "STOP NAMPAR GUA. OOOOOASUUUUUU.",
     [
-        "I am muting you for a minute.",  # normal reply
-        "Stop slapping me just because I can't mute you. REEEEEEEEEE.",  # reply to admin
+        "Saya bakal membisukan mu asu.",  # normal reply
+        "Cukup!! Atau gua mute. Kontol!!.",  # reply to admin
         "tmute",  # command
         "Shut up!",
         "Silence!"
     ])
 
 SLAP_TEMPLATES = (
-    "{user2} MEMUKUL MU SAMPE MAMPUS",
-    "{user2} MENTERTAWAKAN HIDUP MU YANG KUMUH",
+    "{user1} MEMUKUL MU SAMPE MAMPUS",
+    "{user1} MENTERTAWAKAN HIDUP MU YANG KUMUH",
     "{user2} DI PUKUL PALALO SAMA {user1}.",
-    "{user2} MENINGGAL",
-    "{user2} MUKA LU DI GEPLAK SAMA {user2} SAMPE RATA.",
-    "{user2} OTW DI BUNUH SAMA {user2} PAKE CARTER.",
-    "{user2} MEMBUANG MU.",
+    "{user2} MENINGGAL KEK LO!!",
+    "{user2} MUKA LU DI GEPLAK SAMA {user1} SAMPE RATA.",
+    "{user2} OTW DI BUNUH SAMA {user1} PAKE CARTER.",
+    "{user1} MEMBUANG MU.",
     "{user2} PALALO DI LEMPAR ASBAK SAMA {user1}.",
     "{user2} MUKA LU BENER BENER HINA KATA {user1}.",
-    "{user2} METODE MEMBUNUH TANPA MENYENTUH DI AKTIFKAN...",
+    "{user2} METODE MEMBUNUH TANPA MENYENTUH DI AKTIFKAN OLEH {user1}...",
     "{user2} PALA LO DI TENDANG SAMA {user1}.",
     "{user2} BAPAK LO LUMPUH.",
     "{user2} HIDUP LU GA MAMPU.",
     "{user2} PALO PEYANG KATA {user1}.",
     "{user1} MENGINJAK BATANG LEHER {user2} PAKE SENDAL JEPIT.",
-    "{user1} MEMPERMALUKAN {user2} SAMPE LU DELETE TELE.",
-    "{user1} KASIAN {user2} DI TINGGAL PACARNYA SAMPE BUNUH DIRI.",
+    "{user1} MEMPERMALUKAN {user2} SAMPE DELETE TELE.",
+    "{user1} KASIAN, {user2} DI TINGGAL PACARNYA SAMPE BUNUH DIRI.",
     "{user1} menampar {user2} dengan ilmu santet",
     "{user2} dibawa ke rumah sakit jiwa oleh {user1}.",
     "{user1} mencium dan mengentot {user2}.",
     "{user2} mengakui bahwa dirinya lonte.",
     "{user1} menendang {user2} sampai terjatuh ke jurang.",
-    "{user2} memukul dengan satu pukulan oleh {user1}.",
-    "{user1} menginjang kepala {user2} sampai pecah berkeping keping ",
+    "{user2} dipukul dengan satu pukulan oleh {user1}.",
+    "{user1} menginjak injak kepala {user2} sampai pecah berkeping keping ",
+    "{user2} di colmekin sama {user1} sampe squirting.",
+    "{user1} memeluk mu dengan erat karna sangat sange kepada {user2}.",
+    "{user2} menginginkan tubuh nya untuk di entot oleh {user1}.",
+    "{user1} memeras kemaluan {user1} sampai ke enakan.",
+    "{user2} Bapak lo lumpuh kata {user1}.",
+    "{user1} NGENTOT YU!!!
+    "{user2} mengakui bahwa dirinya hina hahaha.",
 )
 
 PAT_TEMPLATES = (
