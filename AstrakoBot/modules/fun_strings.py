@@ -69,6 +69,10 @@ SLAP_TEMPLATES = (
     "{user2} Bapak lo lumpuh kata {user1}.",
     "{user1} NGENTOT YU!!!.",
     "{user2} mengakui bahwa dirinya hina hahaha.",
+    "{user1} Menampar keras seperti tamparan suami psikopat.",
+    "Sekarang adalah waktunya anda pergi dari sini {user2}.",
+    "Heh {user2} Sekarang lo lihat kanar mandi, Bapak lo kepeleset, Yah udah meninggal kali noh.",
+    "{user1} memberikan sesuatu untuk di mainkan di kelamin mu {user2}
 )
 
 PAT_TEMPLATES = (
@@ -79,7 +83,7 @@ PAT_TEMPLATES = (
     "*{user1} menginginkan  {user2} untuk menjadi pacarnya*",
     "*{user2} kamu memang pantas di nobatkan sebagai makhluk terindah*",
     "*{user2} kamu pantas mendapatkan gelar manusia ter keren*",
-    "*pakai dulu celanamu {user2}!",
+    "pakai dulu celanamu {user2}!",
     "Akuilah bahwa dirimu berguna",
     "pahami lah kamu itu hebat kata {user1}!",
     "bersyukurlah {user2} karna hidup mu adalah anugrah dari perkentotan ortumu!",
@@ -93,15 +97,17 @@ PAT_TEMPLATES = (
     "{user2}, jangan kerja terus, skali kali ngopi",
     "{user1} mengentot {user2} sampai lelah",
     "Jangan pernah jadi orang goblok di grup ini",
-    "{user1} memuji {user2}",
-    "{user1} pats {user2} unexpectedly",
-    "{user1} pats {user2} with consent, maybe?",
-    "Pat pat, {user2} honto kawaii ne!",
-    "{user1} headpats {user2} at 420apm",
-    "{user1} bellyrubs {user2}",
-    "{user1} pats {user2} friendlily",
-    "{user2} uses HEADPATS? O KAWAII KOTO",
-    "*headpats.gif intensifies for {user2}*",
+    "{user1} memuji dengan penuh kesangean {user2}",
+    "{user1} memeluk {user2} dengan erat",
+    "{user1} mencolek {user2} dengan penuh hasrat, Sange ya?",
+    "Pok pok, {user2} ngasih kode ngajak ngentot",
+    "{user1} mengelus pala {user2} yang katanya yatim piatu",
+    "{user1} mencipok {user2} secara mendadak",
+    "{user1} ngaceng, {user2} ngangkang.",
+    "{user2} memberikan suatu hadiah kepala kuda liar.",
+    "{user1} berkata, Jangan lah engkau menyia"kan hidup mu demi {user2} yang tidak sama skali memperhatikanmu.",
+    "{user2} udah ngangkang tuh, {user1} gamau ngentot kah?
+    "{user1} udah ngaceng tuh, {user2} gamau goyang kah?",
 )
 
 PAT_GIFS = (
