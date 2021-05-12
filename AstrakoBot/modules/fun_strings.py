@@ -72,7 +72,7 @@ SLAP_TEMPLATES = (
     "{user1} Menampar keras seperti tamparan suami psikopat.",
     "Sekarang adalah waktunya anda pergi dari sini {user2}.",
     "Heh {user2} Sekarang lo lihat kanar mandi, Bapak lo kepeleset, Yah udah meninggal kali noh.",
-    "{user1} memberikan sesuatu untuk di mainkan di kelamin mu {user2}
+    "{user1} memberikan sesuatu untuk di mainkan di kelamin mu {user2}.",
 )
 
 PAT_TEMPLATES = (
