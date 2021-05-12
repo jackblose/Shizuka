@@ -105,7 +105,7 @@ PAT_TEMPLATES = (
     "{user1} mencipok {user2} secara mendadak",
     "{user1} ngaceng, {user2} ngangkang.",
     "{user2} memberikan suatu hadiah kepala kuda liar.",
-    "{user1} berkata. Jangan lah engkau menyia"kan hidup mu demi {user2} yang tidak sama skali memperhatikanmu.",
+    "{user1} berkata. Jangan lah engkau menyia nyia kan hidup mu demi {user2} yang tidak sama skali memperhatikanmu.",
     "{user2} udah ngangkang tuh, {user1} gamau ngentot kah?",
     "{user1} udah ngaceng tuh, {user2} gamau goyang kah?",
 )
