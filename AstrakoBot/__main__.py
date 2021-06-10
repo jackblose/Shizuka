@@ -59,7 +59,7 @@ Aku di buat khusus Untuk membantu kalian,mengusir para jamet telegram yang meres
 Aku hanya robot tapi Aku juga bisa Galau, jangan Sakiti aku ya mas!!
 ━─━─━─━─━─━─━─━─━─━─━
 
-▪**USERNAME KU ADALAH :** [GOKU BOT](http://t.me/goku_isbot)
+▪**USERNAME KU ADALAH :** [GOKU](http://t.me/goku_rbot)
 
 ━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
                      [  
                          InlineKeyboardButton(
                              text="✨ CHANNEL ✨",
-                             url="https://t.me/candu_musikk")
+                             url="https://t.me/ramubotinfo")
                      ]]))
     else:
         update.effective_message.reply_text(
