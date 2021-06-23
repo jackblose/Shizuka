@@ -52,11 +52,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-Hi {}, Perkenalkan,nama saya {}!
-Saya adalah robot yang bisa membantumu memanage grup kamu. 
-Cepat Undang aku ke grup mu, Supaya aku bisa memberantas para penjahat.
-Aku di buat khusus Untuk membantu kalian,mengusir para jamet telegram yang meresahkan!😋.
-Aku hanya robot tapi Aku juga bisa Galau, jangan Sakiti aku ya mas!!
+Selamat Datang {}, Nama saya Shizuka {}!
+Aku adalah robot yang bisa membantumu memanage grup kamu. 
+Tambahkan Aku ke grup kamu, Agar aku bisa langsung bekerja.
+Aku di buat khusus Untuk membantu kalian,Menghukum para pelanggar lalu lintas telegram.
 ━─━─━─━─━─━─━─━─━─━─━
 
 ▪**USERNAME KU ADALAH :** [GOKU](http://t.me/goku_rbot)
@@ -67,8 +66,8 @@ Tekan /help untuk melihat daftar fitur saya.
 
 HELP_STRINGS = """
 Hai! Nama saya adalah *{}*.
-Saya adalah manusia robot dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \
-hal-hal yang bisa saya bantu.
+Saya adalah robot  gabut dengan beberapa kelebihan yang menyenangkan! Silahkan lihat beberapa perintah disini \
+yang bisa kamu jalankan.
 
 *Perintah utama* yang tersedia:
  - /start: mulai bot
@@ -85,12 +84,10 @@ Dan berikut ini:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-ASTRAKOBOT_IMG = "https://i.ibb.co/mSC0msg/IMG-20210418-023743-504.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/b068a73ec6588cac318ba.jpg"
 
 DONATE_STRING = """Silahkan Donasi Ke sini 
-biar gw bisa update sistem bot nya lagi ya asu.. 
-kalau ga mau donasi dahlah kalau error gausah ngeluh kontol. 
-user gratisan gausah sok keras; [RAMA](https://t.me/Ramadhaniiiiiii1), or [SUBS MY CH](https://t.me/Candu_musikk)."""
+Tidak ada paksaan; [WALY](https://t.me/enjoyyourmilk), or [SUBS MY CH](https://t.me/racauanhatii)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -214,8 +211,8 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="👥 TR Grup 👥",
-                             url=f"https://t.me/teman_random"),
+                             text="TEMANESIA GRUP",
+                             url=f"https://t.me/temanesiaonline"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command 🍭",
@@ -224,7 +221,7 @@ def start(update: Update, context: CallbackContext):
                      [  
                          InlineKeyboardButton(
                              text="✨ CHANNEL ✨",
-                             url="https://t.me/ramubotinfo")
+                             url="https://t.me/wysupportinfo")
                      ]]))
     else:
         update.effective_message.reply_text(
