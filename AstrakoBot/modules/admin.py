@@ -438,7 +438,7 @@ def adminlist(update, context):
 
     text += "\n"
     for admin_group in custom_admin_list:
-        text += "\n🚨 <code>{}</code>".format(admin_group)
+        text += "\n🕹 <code>{}</code>".format(admin_group)
         for admin in custom_admin_list[admin_group]:
             text += "\n<code> • </code>{}".format(admin)
         text += "\n"
