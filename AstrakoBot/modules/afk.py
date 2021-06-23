@@ -57,9 +57,9 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                '{} Akhirnya kembali?', '{} darimana?', '{} Habis bucin kah?',
-                '{} KIWW MNIEEZZ', '{} BOLAK BALIK MULU KNTL!', '{} si anjing sok sibuk!',
-                'Welcome back anak dajal! {}', 'kemana si {}?\nPasti abis parming pap tt!'
+                '{} Akhirnya kembali?', '{} darimana saja kamu?', '{} Habis bucin kah?',
+                '{} baru on aja lu', '{} JAM SEGINI BARU BANGUN?', '{} sopankah begitu?',
+                'Yah gajadi ghibah,orangnya datang {}', 'kemana si {}?\nKerja mulu dah'
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
@@ -129,7 +129,7 @@ def check_afk(update, context, user_id, fst_name, userc_id):
         else:
             if int(userc_id) == int(user_id):
                 return
-            res = "{} Lagi AFK!\nKarna: <code>{}</code>".format(
+            res = "{} Lagi AFK!\nAlasan: <code>{}</code>".format(
                 html.escape(fst_name), html.escape(user.reason))
             update.effective_message.reply_text(res, parse_mode="html")
 
