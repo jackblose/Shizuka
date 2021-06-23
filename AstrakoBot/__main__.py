@@ -52,7 +52,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 
-Selamat Datang {}, Nama saya Shizuka {}!
+Selamat Datang {}, Nama Saya {}!
 Aku adalah robot yang bisa membantumu memanage grup kamu. 
 Tambahkan Aku ke grup kamu, Agar aku bisa langsung bekerja.
 Aku di buat khusus Untuk membantu kalian,Menghukum para pelanggar lalu lintas telegram.
