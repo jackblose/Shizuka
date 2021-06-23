@@ -56,11 +56,8 @@ Selamat Datang {}, Nama saya Shizuka {}!
 Aku adalah robot yang bisa membantumu memanage grup kamu. 
 Tambahkan Aku ke grup kamu, Agar aku bisa langsung bekerja.
 Aku di buat khusus Untuk membantu kalian,Menghukum para pelanggar lalu lintas telegram.
-━─━─━─━─━─━─━─━─━─━─━
 
-▪**USERNAME KU ADALAH :** [GOKU](http://t.me/goku_rbot)
 
-━─━─━─━─━─━─━─━─━─━─━
 Tekan /help untuk melihat daftar fitur saya.
 """
 
