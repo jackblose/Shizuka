@@ -1,95 +1,60 @@
-import json
-import os
-import time
+# Thanks to @p_rinc_e
+from pathlib import Path
+import asyncio, time, io, math, os, glob, logging, asyncio, shutil, re, subprocess, json
+from re import findall
+from asyncio import sleep
+from telethon.events import NewMessage
+from telethon.tl.custom import Dialog
+from datetime import datetime as dt
+from pytz import country_names as c_n, country_timezones as c_tz, timezone as tz
+from hachoir.parser import createParser
+import pybase64
+from base64 import b64decode
+from pySmartDL import SmartDL
+from telethon.tl.types import DocumentAttributeVideo, DocumentAttributeAudio
+from telethon import events
 
-from pymongo import MongoClient
-from telethon import types
-from telethon.tl import functions
-from telethon.tl.types import DocumentAttributeAudio
+from AstrakoBot import dispatcher
+from AstrakoBot import telethn
+from AstrakoBot.modules.disable import DisableAbleCommandHandler
+from AstrakoBot.utils import progress
+from telethon.errors.rpcerrorlist import YouBlockedUserError
+from telethon.tl.functions.messages import ImportChatInviteRequest as Get
+from validators.url import url
+from html import unescape
+from urllib.error import HTTPError
+import bs4
+from bs4 import BeautifulSoup
 from youtube_dl import YoutubeDL
-from youtube_dl.utils import (
-    ContentTooShortError,
-    DownloadError,
-    ExtractorError,
-    GeoRestrictedError,
-    MaxDownloadsReached,
-    PostProcessingError,
-    UnavailableVideoError,
-    XAttrMetadataError,
-)
 from youtubesearchpython import SearchVideos
-
-from Mizuki import MONGO_DB_URI, tbot
-from Mizuki.events import register
-
-client = MongoClient()
-client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
-approved_users = db.approve
+from youtube_dl.utils import (DownloadError, ContentTooShortError,
+                              ExtractorError, GeoRestrictedError,
+                              MaxDownloadsReached, PostProcessingError,
+                              UnavailableVideoError, XAttrMetadataError)
 
 
-async def is_register_admin(chat, user):
-    if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
-        return isinstance(
-            (
-                await tbot(functions.channels.GetParticipantRequest(chat, user))
-            ).participant,
-            (types.ChannelParticipantAdmin, types.ChannelParticipantCreator),
-        )
-    if isinstance(chat, types.InputPeerUser):
-        return True
-
-
-@register(pattern="^/song (.*)")
-async def download_song(v_url):
-    approved_userss = approved_users.find({})
-    for ch in approved_userss:
-        iid = ch["id"]
-        userss = ch["user"]
-    if v_url.is_group:
-        if await is_register_admin(v_url.input_chat, v_url.message.sender_id):
-            pass
-        elif v_url.chat_id == iid and v_url.sender_id == userss:
-            pass
-        else:
-            return
+async def process(v_url, dtype, opts):
+    lazy = v_url ; sender = await lazy.get_sender() ; me = await lazy.client.get_me()
+    if not sender.id == me.id:
+        rkp = await lazy.reply("`processing...`")
+    else:
+    	rkp = await lazy.edit("`processing...`")   
     url = v_url.pattern_match.group(1)
-    rkp = await v_url.reply("Processing...")
     if not url:
-        await rkp.edit("**What's the song you want?**\nUsage`/song <song name>`")
-    search = SearchVideos(url, offset=1, mode="json", max_results=1)
+         return await rkp.edit("`Error \nusage song <song name>`")
+    search = SearchVideos(url, offset = 1, mode = "json", max_results = 1)
     test = search.result()
     p = json.loads(test)
-    q = p.get("search_result")
+    q = p.get('search_result')
     try:
-        url = q[0]["link"]
-    except BaseException:
-        return await rkp.edit("`Failed to find that song`")
+       url = q[0]['link']
+    except:
+    	return await rkp.edit("`failed to find`")
     type = "audio"
-    await rkp.edit("Preparing to download...")
-    if type == "audio":
-        opts = {
-            "format": "bestaudio",
-            "addmetadata": True,
-            "key": "FFmpegMetadata",
-            "writethumbnail": True,
-            "prefer_ffmpeg": True,
-            "geo_bypass": True,
-            "nocheckcertificate": True,
-            "postprocessors": [
-                {
-                    "key": "FFmpegExtractAudio",
-                    "preferredcodec": "mp3",
-                    "preferredquality": "320",
-                }
-            ],
-            "outtmpl": "%(id)s.mp3",
-            "quiet": True,
-            "logtostderr": False,
-        }
-        song = True
+    await rkp.edit("`Preparing to download...`")
+  
     try:
-        await rkp.edit("Downloading...")
+        await rkp.edit("`Fetching data, please wait..`")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
@@ -121,33 +86,131 @@ async def download_song(v_url):
     except Exception as e:
         await rkp.edit(f"{str(type(e)): {str(e)}}")
         return
-    time.time()
-    if song:
-        await rkp.edit("Uploading...")
+    c_time = time.time()
 
-        lel = await v_url.client.send_file(
+    if dtype == "song":
+
+        if int(rip_data["duration"] / 60) > 30:
+            await rkp.edit("`Song is too long for processing.`")
+            return
+
+        await rkp.edit(f"`Preparing to upload song:`\
+        \n**{rip_data['title']}**\
+        \nby *{rip_data['uploader']}*")
+        await v_url.client.send_file(
             v_url.chat_id,
             f"{rip_data['id']}.mp3",
-            supports_streaming=False,
-            force_document=False,
-            allow_cache=False,
+            supports_streaming=True,
             attributes=[
-                DocumentAttributeAudio(
-                    duration=int(rip_data["duration"]),
-                    title=str(rip_data["title"]),
-                    performer=str(rip_data["uploader"]),
-                )
+                DocumentAttributeAudio(duration=int(rip_data['duration']),
+                                       title=str(rip_data['title']),
+                                       performer=str(rip_data['uploader']))
             ],
-        )
-        await rkp.delete()
-        os.system("rm -rf *.mp3")
-        os.system("rm -rf *.webp")
+            progress_callback=lambda d, t: asyncio.get_event_loop(
+            ).create_task(
+                progress(d, t, v_url, c_time, "Uploading..",
+                         f"{rip_data['title']}.mp3")))
+
+    else:
+
+        if int(rip_data["duration"] / 60) > 10:
+            await rkp.edit("`Video is too long for processing.`")
+            return
+
+        await rkp.edit(f"`Preparing to upload video:`\
+        \n**{rip_data['title']}**\
+        \nby *{rip_data['uploader']}*")
+        await v_url.client.send_file(
+            v_url.chat_id,
+            f"{rip_data['id']}.mp4",
+            supports_streaming=True,
+            caption=url,
+            progress_callback=lambda d, t: asyncio.get_event_loop(
+            ).create_task(
+                progress(d, t, v_url, c_time, "Uploading..",
+                         f"{rip_data['title']}.mp4")))
 
 
-__help__ = """
- • `/song <song name>`*:* uploads the song from YouTube in the best quality available.
- • `/lyrics <song name>`*:* provides the lyrics of the song you want.
-"""
+@telethn.on(events.NewMessage(pattern="^[!/]song(.*)"))
+async def song(v_url):
+    opts = {
+    'format':
+    'bestaudio',
+    'addmetadata':
+    True,
+    'key':
+    'FFmpegMetadata',
+    'writethumbnail':
+    True,
+    'prefer_ffmpeg':
+    True,
+    'geo_bypass':
+    True,
+    'nocheckcertificate':
+    True,
+    'postprocessors': [{
+        'key': 'FFmpegExtractAudio',
+        'preferredcodec': 'mp3',
+        'preferredquality': '320',
+    }],
+    'outtmpl':
+    '%(id)s.mp3',
+    'quiet':
+    True,
+    'logtostderr':
+    False
+    }
+    await process(v_url, "song", opts)
 
-__mod_name__ = "Songs"
+    try:
+        for f in glob.glob("*.mp*"):
+            os.remove(f)
+    except Exception:
+        pass
+
+@telethn.on(events.NewMessage(pattern="^[!/]video(.*)"))
+async def video(v_url):
+    opts = {
+    'format':
+    'best',
+    'addmetadata':
+    True,
+    'key':
+    'FFmpegMetadata',
+    'prefer_ffmpeg':
+    True,
+    'geo_bypass':
+    True,
+    'nocheckcertificate':
+    True,
+    'postprocessors': [{
+        'key': 'FFmpegVideoConvertor',
+        'preferedformat': 'mp4'
+    }],
+    'outtmpl':
+    '%(id)s.mp4',
+    'logtostderr':
+    False,
+    'quiet':
+    True
+    }
+    await process(v_url, "video", opts)
+
+    try:
+        for f in glob.glob("*.mp*"):
+            os.remove(f)
+    except Exception:
+        pass
+
+
+SONG_HANDLER = DisableAbleCommandHandler('song', song)
+VIDEO_HANDLER = DisableAbleCommandHandler('video', video)
+
+dispatcher.add_handler(SONG_HANDLER)
+dispatcher.add_handler(VIDEO_HANDLER)
+
+__handlers__ = [
+    SONG_HANDLER,
+    VIDEO_HANDLER
+]
 
