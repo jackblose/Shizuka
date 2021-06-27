@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 
 Selamat Datang {}, Nama Saya {}!
-Aku adalah robot yang bisa membantumu memanage grup kamu. 
+Aku adalah robot yang bisa membantumu me manage grup kamu. 
 Tambahkan Aku ke grup kamu, Agar aku bisa langsung bekerja.
 Aku di buat khusus Untuk membantu kalian,Menghukum para pelanggar lalu lintas telegram.
 
@@ -64,7 +64,7 @@ Tekan /help untuk melihat daftar fitur saya.
 HELP_STRINGS = """
 Hai! Nama saya adalah *{}*.
 Saya adalah robot  gabut dengan beberapa kelebihan yang menyenangkan! Silahkan lihat beberapa perintah disini \
-yang bisa kamu jalankan.
+yang bisa kamu jalankan. Reply chat bot shizuka lalu tekan /tr id jika kamu tidak paham dengan bahasa yg tersedia.
 
 *Perintah utama* yang tersedia:
  - /start: mulai bot
