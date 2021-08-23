@@ -209,7 +209,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="TEMANESIA GRUP",
-                             url=f"https://t.me/temanesiaonline"),
+                             url=f"https://t.me/familytnbos"),
                      
                          InlineKeyboardButton(
                              text="🍭 Help & Command 🍭",
